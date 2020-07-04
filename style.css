@@ -1,0 +1,42 @@
+body {
+    background: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.keys {
+    display: flex;
+    margin-top: 15%;
+}
+
+.key {
+    background-color: rgb(19, 27, 27);
+    width: 8%;
+    margin: 1%;
+    border-radius: 1%;
+    text-align: center;
+    text-shadow: 0 0 0.2rem cornsilk;
+    border: solid 0.2rem crimson;
+    font-size: 1.5rem;
+}
+
+.play {
+    background-color: rgb(132, 221, 221);
+    width: 8%;
+    margin: 1%;
+    border-radius: 1%;
+    text-align: center;
+    text-shadow: 0 0 0.2rem rgb(224, 201, 96);
+    border: solid 0.2rem rgb(156, 47, 69);
+    font-size: 1.5rem;
+}
+
+.play:hover {
+    background-color: rgb(100, 158, 197);
+}
+
+.key .tone {
+    font-size: 0.8rem;
+    text-shadow: none;
+}
